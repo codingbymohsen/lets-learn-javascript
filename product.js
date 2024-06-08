@@ -5,6 +5,10 @@ function addNewProduct(title, description, price, userId) {
   products.push({ id, title, description, price, userId });
 }
 function findOne(title) {
+  // products.filter((p) => {
+  //   const p1 = p.title.toString();
+  //   return p1 == title;
+  // });
   return products.filter((p) => p.title == title);
 }
 function filter(price) {}
