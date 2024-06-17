@@ -9,3 +9,6 @@ function myFunction() {
 console.log(c);
 
 myFunction();
+
+const date = new Date();
+console.log(Object.getPrototypeOf(a));
