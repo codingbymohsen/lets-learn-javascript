@@ -36,5 +36,5 @@ myUser.fullName = "full name";
 const fullName = myUser.buildFullName();
 myUser.buildFullName("firstName", "lastName");
 myUser.buildFullName("sdf", "sdfsdf", 111, 222, 333, 4444);
-console.log(myUser);
+console.log(myUser["fName"]);
 console.log(fullName);

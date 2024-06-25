@@ -17,6 +17,10 @@ console.log(fullName(firstName, lastName));
 //add new User
 //log new event on user creation
 
+filter((u)=>u.id==1)
+function filter(f){
+  f({id:1,name:"mohsen"})
+}
 function createUser(firstName, lastName, callback) {
   const id = Math.random();
   console.log(typeof callback);
